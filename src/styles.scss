@@ -1,0 +1,24 @@
+// DEFINE THE CUSTOM FONT "AVENIRNEXTFORINTUIT" AND SPECIFY ITS SOURCES
+@font-face {
+  font-family: "AvenirNextforINTUIT";
+  // CHECK IF FONT IS AVAILABLE LOCALLY
+  src: local("AvenirNextforINTUIT"), local("AvenirNextforINTUIT-Medium"),
+    url("assets/fonts/AvenirNextforINTUIT-Medium.otf") format("opentype"),
+    url("assets/fonts/AvenirNextforINTUIT-MediumIt.otf") format("opentype"),
+    url("assets/fonts/AvenirNextforINTUIT-Regular.otf") format("opentype"),
+    url("assets/fonts/AvenirNextforINTUIT-Thin.otf") format("opentype"),
+    url("assets/fonts/AvenirNextforINTUIT-ThinIt.otf") format("opentype");
+}
+
+// REMOVE DEFAULT MARGIN FROM THE BODY ELEMENT
+body {
+  margin: 0;
+}
+
+// APPLY THE FOLLOWING STYLES TO ALL ELEMENTS
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "AvenirNextforINTUIT";
+}

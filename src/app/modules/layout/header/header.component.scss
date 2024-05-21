@@ -1,0 +1,70 @@
+// HEADER SECTION STYLES
+.navbar {
+  background-color: #cccccc;
+  color: #fff;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1260px;
+    margin: auto;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  // NAVBAR NAVIGATION STYLES
+  .navbar-nav {
+    display: flex;
+
+    // NAVIGATION ITEM STYLES
+    .nav-item {
+      margin-left: 42px;
+      text-decoration: none;
+      font-size: 15px;
+      color: #303030;
+      font-weight: 400;
+      text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+      transition: color 0.3s ease, text-shadow 0.3s ease;
+
+      // HOVER STYLES ON NAV ITEMS
+      &:hover {
+        color: #306fdf;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  // AUTHENTICATION BUTTONS STYLES
+  .auth-buttons {
+    .btn-login {
+      background: transparent;
+      border: 1px solid;
+      border-radius: 2rem;
+      font-weight: 600;
+      padding: 0.8rem 2.5rem;
+      text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+    }
+
+    .btn-register {
+      background: #306fdf;
+      border: 1px solid transparent;
+      border-radius: 2rem;
+      font-weight: 600;
+      padding: 0.8rem 1.5rem;
+      color: #fff;
+      text-shadow: 0px 3px 10px rgba(11, 11, 11, 0.4);
+      margin-left: 1rem;
+      cursor: pointer;
+
+      .arrow-icon {
+        margin-left: 8px;
+      }
+    }
+  }
+}

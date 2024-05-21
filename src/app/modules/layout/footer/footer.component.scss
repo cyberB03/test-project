@@ -1,0 +1,40 @@
+// FOOTER CONTAINER STYLES
+.footer-container {
+  border-top: 1px solid #ededed;
+  box-shadow: 0px 6px 6px 5px #e5dfdf;
+
+  // FOOTER STYLES
+  .footer {
+    max-width: 1260px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+
+    // CONTACT INFORMATION WRAPPER STYLES
+    .flex-wrapper {
+      display: flex;
+      align-items: center;
+
+      .contact-wrap {
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+
+        .icons-wrap {
+          width: 20px;
+        }
+
+        .info {
+          padding-left: 5px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .info {
+      font-size: 12px;
+    }
+  }
+}
